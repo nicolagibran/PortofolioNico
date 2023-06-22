@@ -1,0 +1,33 @@
+body {
+  --bs-primary-rgb: 28,61,202;
+  --bs-primary: #1c3dca;
+  --bs-info: #02aaff;
+  --bs-info-rgb: 2,170,255;
+  --bs-dark: #131416;
+  --bs-dark-rgb: 19,20,22;
+  --bs-body-color: var(--bs-white);
+  --bs-body-bg: var(--bs-dark);
+  --bs-body-font-weight: 300;
+}
+
+.container {
+  height: 100%;
+  max-width: 960px;
+}
+
+.text-badge {
+  padding: .1em .4em;
+  background: var(--bs-dark);
+}
+
+.banner {
+}
+
+.projects {
+  --bs-gutter-y: 1.5rem;
+}
+
+footer {
+  border-color: var(--bs-gray-900);
+}
+
